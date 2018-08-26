@@ -17,7 +17,7 @@ class App extends Component {
 			<BrowserRouter basename={basename}>
 				<ScrollToTop>
 					<Helmet>
-						<title>Online Portfolio | Ervandra Halim</title>
+						<title>Portfolio Web Apps | Ervandra Halim</title>
 					</Helmet>
 					<Route path="/" exact component={HomePage} />
 				</ScrollToTop>
