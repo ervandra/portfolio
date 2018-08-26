@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "description": "Web Apps for www.ervandra.com",
-  "homepage": "https://ervandra.github.io/portfolio/",
   "author": "Ervandra Halim",
   "dependencies": {
     "react": "^16.4.2",
