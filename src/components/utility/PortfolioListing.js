@@ -11,7 +11,7 @@ class PortfolioListing extends Component {
 		};
 	}
 	componentDidMount() {
-		axios.get(`https://www.ervandra.com/wp-json/wp/v2/posts?categories=2&per_page=16&_embed`).then(res => {
+		axios.get(`https://www.ervandra.com/wp-json/wp/v2/posts?categories=2&per_page=100&_embed`).then(res => {
 			const portfolios = res.data;
 			this.setState({ portfolios });
 		});
