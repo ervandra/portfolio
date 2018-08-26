@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import ScrollToTop from './components/global/ScrollToTop';
+import { Helmet } from 'react-helmet';
 
 import './assets/css/foundation.css';
 import './assets/css/fontface.css';
@@ -15,6 +16,9 @@ class App extends Component {
 		return (
 			<BrowserRouter basename={basename}>
 				<ScrollToTop>
+					<Helmet>
+						<title>Online Portfolio | Ervandra Halim</title>
+					</Helmet>
 					<Route path="/" exact component={HomePage} />
 				</ScrollToTop>
 			</BrowserRouter>
