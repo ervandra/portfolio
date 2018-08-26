@@ -11,7 +11,7 @@ import HomePage from './pages/Home';
 class App extends Component {
 	render() {
 		return (
-			<BrowserRouter>
+			<BrowserRouter basename="/portfolio">
 				<ScrollToTop>
 					<Route path="/" exact component={HomePage} />
 				</ScrollToTop>

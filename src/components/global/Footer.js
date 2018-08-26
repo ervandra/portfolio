@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import me from '../../assets/images/me-100.jpg';
+
 class Footer extends Component {
 	render() {
 		return (
@@ -10,7 +12,7 @@ class Footer extends Component {
 							<div className="footer-section author">
 								<p>
 									<img
-										src="https://www.ervandra.com/wp-content/themes/vahnisme/images/me-100.jpg"
+										src={me}
 										alt="Ervandra Halim"
 										width="100"
 										height="100"
